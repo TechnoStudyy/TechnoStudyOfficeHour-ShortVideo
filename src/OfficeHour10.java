@@ -63,17 +63,16 @@ public class OfficeHour10 {
 
                         int myNum = 0 ;
 //                     odd numbers
-                        int myNum1 = Integer.parseInt(String.valueOf(CardChar[i]));
                         if(i%2==0){
 
-                             myNum = myNum1;
+                             myNum = Character.getNumericValue(CardChar[i]);
 
                             TotalOdd = TotalOdd + myNum;
 
 //                            even numbers
                          }else if(i%2==1){
 
-                             myNum = myNum1;
+                             myNum = Character.getNumericValue(CardChar[i]);
 
                             TotalEven = TotalEven + myNum;
 
