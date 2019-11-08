@@ -192,7 +192,5 @@ public class OfficeHour9 {
 
         System.out.println("Is employee name is empty ---->>  "+EmployeeName.isEmpty());
 
-
-
     }
 }
