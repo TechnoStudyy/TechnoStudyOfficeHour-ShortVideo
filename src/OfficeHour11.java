@@ -110,7 +110,7 @@ public class OfficeHour11 {
         list4.add("Elephant");
         list4.add("Dog");
         list4.add("Cow");
-        list4.add("Tiger");
+        list4.add("Lizard");
         list4.add("Cat");
         list4.add("Lizard");
 
@@ -130,20 +130,19 @@ public class OfficeHour11 {
                     check = true;
 
                     break;
+
                 }else{
 
                     check = false;
 
-
                 }
-
-
 
               }
 
             if(check==false){
 
                 break;
+
             }
 
         }
@@ -151,4 +150,5 @@ public class OfficeHour11 {
         System.out.println("Check is here ---->>>>   "+check);
 
     }
+
 }
