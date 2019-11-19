@@ -1,6 +1,4 @@
-package OfficeHour13_Methods;
-
-import java.util.Random;
+package ShortVideo11_Methods;
 
 public class MethodMain {
 
